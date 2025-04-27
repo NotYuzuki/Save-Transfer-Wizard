@@ -3,7 +3,7 @@
 Namespace PS4Saves
 
     Public Class Offsets
-        Public Shared ReadOnly Firmwares As String() = {"4.03", "4.50", "5.xx"}
+        Public Shared ReadOnly Firmwares As String() = {"4.03", "4.50", "5.xx", "7.61"}
         Public Shared Property SelectedFirmware As String = String.Empty ' updated by fwVersionComboBox
 
         Public Shared ReadOnly Property sceUserServiceGetInitialUser As ULong

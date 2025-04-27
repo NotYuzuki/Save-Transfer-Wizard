@@ -13,6 +13,8 @@ Namespace PS4Saves
                         Return &H3290
                     Case "5.xx"
                         Return &H33B0
+                    Case "7.61"
+                        Return &H33C0
                     Case Else
                         Throw New Exception("Unsupported firmware (did you select an item from the dropdown?)")
                 End Select
@@ -26,6 +28,8 @@ Namespace PS4Saves
                         Return &H2A50
                     Case "5.xx"
                         Return &H2B00
+                    Case "7.61"
+                        Return &H2B10
                     Case Else
                         Throw New Exception("Unsupported firmware (did you select an item from the dropdown?)")
                 End Select
@@ -39,6 +43,8 @@ Namespace PS4Saves
                         Return &H46E0
                     Case "5.xx"
                         Return &H4830
+                    Case "7.61"
+                        Return &H4730
                     Case Else
                         Throw New Exception("Unsupported firmware (did you select an item from the dropdown?)")
                 End Select
@@ -52,6 +58,8 @@ Namespace PS4Saves
                         Return &H31470
                     Case "5.xx"
                         Return &H321B0
+                    Case "7.61"
+                        Return &H32940
                     Case Else
                         Throw New Exception("Unsupported firmware (did you select an item from the dropdown?)")
                 End Select
@@ -65,6 +73,8 @@ Namespace PS4Saves
                         Return &H31940
                     Case "5.xx"
                         Return &H32680
+                    Case "7.61"
+                        Return &H32DE0
                     Case Else
                         Throw New Exception("Unsupported firmware (did you select an item from the dropdown?)")
                 End Select
@@ -78,6 +88,8 @@ Namespace PS4Saves
                         Return &H32720
                     Case "5.xx"
                         Return &H33460
+                    Case "7.61"
+                        Return &H33BC0
                     Case Else
                         Throw New Exception("Unsupported firmware (did you select an item from the dropdown?)")
                 End Select
@@ -91,6 +103,8 @@ Namespace PS4Saves
                         Return &H317F0
                     Case "5.xx"
                         Return &H32530
+                    Case "7.61"
+                        Return &H32CA0
                     Case Else
                         Throw New Exception("Unsupported firmware (did you select an item from the dropdown?)")
                 End Select
@@ -104,6 +118,8 @@ Namespace PS4Saves
                         Return &H30FE0
                     Case "5.xx"
                         Return &H31D20
+                    Case "7.61"
+                        Return &H324B0
                     Case Else
                         Throw New Exception("Unsupported firmware (did you select an item from the dropdown?)")
                 End Select
